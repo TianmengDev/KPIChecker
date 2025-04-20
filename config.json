@@ -1,0 +1,19 @@
+{
+  "check_last_paragraphs": 10,
+  "kpi_patterns": [
+    "(\\d{4})年?第?[一二三四]季度KPI考核自评(\\d{1,3})分",
+    "季度KPI考核自评(\\d{1,3})分",
+    "KPI\\s*自评得分\\s*(\\d{1,3})\\s*分",
+    "自评得分\\s*(\\d{1,3})\\s*分",
+    "KPI考核自评(\\d{1,3})分"
+  ],
+  "report": {
+    "default_format": "excel",
+    "excel_filename": "KPI检查报告.xlsx",
+    "txt_filename": "KPI检查报告.txt"
+  },
+  "fixer": {
+    "enabled": false,
+    "template": "{year}年第{quarter}季度KPI考核自评__分。"
+  }
+} 
