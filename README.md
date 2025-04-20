@@ -1,11 +1,12 @@
 # KPI检查器 (KPI Checker)
 
+[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 KPI检查器是一个用于检查Word文档中KPI自评语句的工具。它能扫描指定目录下的所有.docx文件，检查是否包含类似"本季度KPI自评XX分"的语句，并生成报告。该工具特别适用于人力资源部门检查员工季度工作总结中是否包含规范的KPI自评。
 
 <p align="center">
-  <img src="https://github.com/yourusername/kpichecker/raw/main/docs/assets/screenshot.png" alt="KPI检查器截图" width="600">
+  <img src="https://raw.githubusercontent.com/TianmengDev/KPIChecker/refs/heads/main/screenshot.png" alt="KPI检查器截图" width="600">
 </p>
 
 ## 📋 目录
@@ -285,14 +286,28 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📄 许可证
 
-本项目采用 [MIT 许可证](LICENSE)。
+## 🗒️ 贡献指南
 
-## 👥 贡献者
+我们欢迎任何形式的贡献！如果您想为项目做出贡献，请遵循以下步骤：
 
-- KPI Checker 团队
+1. Fork 项目
+2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 打开一个 Pull Request
 
----
+## ✅ 许可证
 
-如有问题或建议，欢迎 [提交Issue](https://github.com/yourusername/kpichecker/issues) 或 [发起Pull Request](https://github.com/yourusername/kpichecker/pulls)。 
+本项目采用 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件
+
+## 🚩 免责声明
+
+本项目仅供学习和研究使用，请勿用于任何商业用途。使用本工具时请遵守相关平台的使用条款和规定。因使用本工具而产生的任何问题，开发者不承担任何责任。
+
+## ☎️ 联系方式
+
+如有任何问题或建议，请通过以下方式联系我们：
+- 提交 Issue
+
+
